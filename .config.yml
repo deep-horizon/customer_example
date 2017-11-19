@@ -1,0 +1,9 @@
+model: data/model.ckpt
+
+train:
+- python train.py
+
+test:
+- python test.py
+
+predict: src.model.predict
