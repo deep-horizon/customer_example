@@ -1,9 +1,0 @@
-model: data/model.ckpt
-
-create_dataset: src.dataset.create
-
-train: src.model.train
-
-test: src.model.test
-
-predict: src.model.predict
