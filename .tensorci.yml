@@ -1,13 +1,7 @@
-name: pred1
-
+name: bens-pred
 repo: https://github.com/deep-horizon/customer_example.git
-
 model: data/model.ckpt
-
 create_dataset: src.dataset:create
-
 train: src.model:train
-
 test: src.model:test
-
 predict: src.model:predict
