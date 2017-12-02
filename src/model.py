@@ -10,7 +10,7 @@ def train():
 
 
 def test():
-  print('Testing...')
+  print('Testing!')
 
 
 def predict(data):
